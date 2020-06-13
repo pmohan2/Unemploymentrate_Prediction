@@ -77,17 +77,13 @@ import plotly.express as px
 
 ![Image of Plot](Images/Boxplt2.png)
 
-#### Heat Map (Weekly vs Hourly):
+#### Correlation Plot:
 
-*The following Heat Map compares weekly vs hourly taxi demand and it is evident that the demand was maximum during weekdays. Also, it can be inferred that demand was at its peak from evening to late in night. It is understood that people prefer to take yellow taxi during night time rather than the public transport.*
+![Image of Plot](Images/Correlation.png)
 
-![Image of Plot](Images/Heatmap.jpeg)
+#### United States Map showing Average Unemployment Rate from 2010 - 2018:
 
-#### Temperature vs Demand:
-
-*From the Temperature vs Demand plot we can see that there is an increase in trend for demand of taxis when the temperature is very low as well as the temperature is very high. This might be because people may decide their mode of transportation depending upon the atmospheric condition.*
-
-![Image of Plot](Images/TempvsDemand.jpeg)
+![Image of Plot](Images/Heatmap.png)
 
 ### Model Results:
 
