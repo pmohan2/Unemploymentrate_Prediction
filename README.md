@@ -65,7 +65,7 @@ import plotly.express as px
 
 ![Image of Plot](Images/Barchart.png)
 
-#### Scatter Matrix Plot (Final Data):
+#### Trend in Unemployment rate in United states:
 
 ![Image of Plot](Images/scatter2.png)
 
