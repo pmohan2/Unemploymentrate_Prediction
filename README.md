@@ -71,11 +71,11 @@ import plotly.express as px
 
 ![Image of Plot](Images/Bottom_5_states.png)
 
-#### Monthly Fluctuation of Demand:
+#### Distribution of various Factors:
 
-*The line graph shows the monthly fluctuation of demands for the top 5 locations (location with most number of rides in the year 2019) and can be inferred that the demand for yellow taxi was at the peak during the month of March at Madison square. Minimum demand was observed during the month of January and December. This might be due to the impact of winter vacation. Also, the similar downward trend was observed during the summer vacation.*
+![Image of Plot](Images/Boxplt.png)
 
-![Image of Plot](Images/Top5.jpeg)
+![Image of Plot](Images/Boxplt2.png)
 
 #### Heat Map (Weekly vs Hourly):
 
