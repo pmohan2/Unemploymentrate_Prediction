@@ -67,7 +67,9 @@ import plotly.express as px
 
 #### Trend in Unemployment rate in United states:
 
-![Image of Plot](Images/scatter2.png)
+![Image of Plot](Images/Top_5_states.png)
+
+![Image of Plot](Images/Bottom_5_states.png)
 
 #### Monthly Fluctuation of Demand:
 
