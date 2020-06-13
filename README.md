@@ -33,6 +33,19 @@ actual economy, past or present.
 - Includes year wise Unemployment Rate Data.
 ---
 
+## Database Creation
+- Raw data has been extracted for each aspect (Social, Economic, Demographic,
+Unemployment Rate) from year 2010 to 2018.
+- Created a Database with 36 tables for the respective raw data.
+- Populated each table with the values from the raw data.
+- Performed ‘UNION ALL’ operation in combining the year-wise data of each aspects
+with the help of Common Table Expression (CTE).
+- Performed ‘INNER JOIN’ operation in merging the data of each aspect with the help
+of Common Table Expression (CTE).
+- Finally queried the merged data from the Database for Feature Engineering,
+Exploratory Data Analysis (EDA), and Model Fitting.
+
+
 ## Packages used for EDA
 ```
 import pandas as pd
