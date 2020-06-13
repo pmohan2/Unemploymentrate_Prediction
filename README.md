@@ -24,6 +24,13 @@ and households administered by the Census Bureau.
 - Economic data or economic statistics are data (quantitative measures) describing an
 actual economy, past or present.
 - Includes Income, Employment, Occupation, Commuting to Work, etc.
+
+[Social Characteristics](https://data.census.gov/cedsci/table?d=ACS%205-Year%20Estimates%20Data%20Profiles&table=DP02&tid=ACSDP5Y2015.DP02)
+- Social, cultural, religious and other characteristics of a person or group of people which contribute to the specification of the population to which they belong. For example, first language spoken, indigenous status, religious affiliation, sex.
+- Includes Education, Marital Status, Relationships, Grandparents, etc.
+
+[Unemployment Rate](http://www.dlt.ri.gov/lmi/laus/us/annavg.htm)
+- Includes year wise Unemployment Rate Data.
 ---
 
 ## Packages used for EDA
