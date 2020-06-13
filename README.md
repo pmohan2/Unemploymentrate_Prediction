@@ -44,19 +44,19 @@ with the help of Common Table Expression (CTE).
 of Common Table Expression (CTE).
 - Finally queried the merged data from the Database for Feature Engineering,
 Exploratory Data Analysis (EDA), and Model Fitting.
-
+*Note: Created and Populated Database by Integrating Database and Python using SQLite3.*
 
 ## Packages used for EDA
 ```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
-from ipywidgets.embed import embed_minimal_html
+import seaborn as sns 
+import json
+import requests
+from sklearn.preprocessing import StandardScaler
+import plotly.express as px
 ```
-- *Note:The following packages need to be installed:* 
-- *pip install seaborn*
-- *pip install ipywidgets.embed*
 
 ### Data Visualization:
 *Exploratory Data Analysis is a process of conducting initial investigations on data set to identify patterns, anomalies, to test hypothesis and to check assumptions with the help of summary statistics and graphical representations. Before removing the outliers from the dataset the distribution of predictors are highly skewed which is evident from the below scatter matrix plot. After removing outliers, the distribution of parameters turns out to be normalized. Making the predictor more normalized gives us the better model.*
