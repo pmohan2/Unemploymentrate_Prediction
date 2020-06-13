@@ -2,19 +2,28 @@
 ### Prediction of State-wise Unemployment Rate in US
 ## Introduction
 *The U.S Department of Labor, specifically the Bureau of Labor Statistics (BLS), began collecting employment information via monthly household surveys. Other data series are available back to 1912. The unemployment rate has varied from as low as 1% during World War I to as high as 25% during the Great Depression (in most countries it started in 1929 and lasted until 1941. It was the longest, deepest, and most widespread depression of the 20th century). More recently, it reached peaks of 10.8% in November 1982 and 10.0% in October 2009. Unemployment tends to rise during recessions and fall during expansions. From 1948 to 2015, unemployment averaged about 5.8%. The United States has experienced 11 recessions since the end of the postwar period in 1948.*
+
 *The U.S. Bureau of Labor Statistics has defined the basic employment concepts as follows:*
 - People with jobs are employed.
 - People who are jobless, looking for jobs, and available for work are unemployed.
 - People who are neither employed nor unemployed are not in the labor force.
 *Predicting unemployment rates will be helpful for the state level planning of job market.*
+
 *Note: This analysis and prediction is based on the assumption that the COVID-19 has not occurred and the trend continues.*
 
 
 ---
 
 ## Sources
-- [NYC Yellow Taxi Data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
-- The weather data from [DarkSky API](https://darksky.net/dev)
+[Demographic Characteristics](https://data.census.gov/cedsci/table?d=ACS%205-Year%20Estimates%20Data%20Profiles&table=DP05&tid=ACSDP5Y2015.DP05)
+- Demographic data refer to the Decennial Census and other surveys of individuals
+and households administered by the Census Bureau.
+- Includes Sex and Age, Race, Hispanic Origin, Housing Units, etc.
+
+[Economic Characteristics](https://data.census.gov/cedsci/table?d=ACS%205-Year%20Estimates%20Data%20Profiles&table=DP03&tid=ACSDP5Y2015.DP03)
+- Economic data or economic statistics are data (quantitative measures) describing an
+actual economy, past or present.
+- Includes Income, Employment, Occupation, Commuting to Work, etc.
 ---
 
 ## Packages used for EDA
