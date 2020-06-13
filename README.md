@@ -61,9 +61,9 @@ import plotly.express as px
 
 ### Data Visualization:
 
-#### Scatter Matrix Plot (Raw Data):
+#### Bar plot showing range of Unemployment rates in different states:
 
-![Image of Plot](Images/scatter1.png)
+![Image of Plot](Images/Barchart.png)
 
 #### Scatter Matrix Plot (Final Data):
 
