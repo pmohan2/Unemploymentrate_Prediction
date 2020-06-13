@@ -87,12 +87,14 @@ import plotly.express as px
 
 ### Model Results:
 
-![Image of Plot](Images/Results.png)
+![Image of Plot](Images/Model.png)
 
 ### Conclusion and Remarks:
-- *This project focuses upon studying the behaviour of people who utilize yellow taxi in NYC and predict the demand by considering various factor like atmospheric conditions, etc.* 
-- *There were a total of 255 different pickup and drop-off location zones in NYC. Due to computational limitations, we have decided to predict the demand for the top 20 zones were most number of trips were recorded.*
-- *For these 20 zones, exploratory data analysis was conducted. From the EDA we have identified unique patterns and anomalies in taxi demand with respect to people’s behaviour and atmospheric conditions.*
-- *Informed decision were made in choosing, tuning, training and testing the models and the results were interpreted based upon the best model. The model with best accuracy seems to be the Extreme Gradient Boosting (XG Boost).*
-- *The XGB Model states that the factors Temperature, Wind Speed, Hour, Day and Pickup Location are the most significant factors in predicting the demand. Therefore, it is critical for taxi companies to consider these factors in allocating cabs for various locations in NYC.*
+- *Our objective was to analyze and predict unemployment rate with the help of social, economic and demographic data.* 
+- *Exploratory Data Analysis was done by creating and analyzing various plots such as correlation plot, box plot, maps etc. to identify patterns and anomalies in the data.*
+- *Since we had less data (469 samples) we implemented K-fold cross validation and evaluation metrics such as Root mean square error (RMSE) and Mean absolute error (MAE) for evaluating various models.*
+- *We used linear models and regularization methods such as linear regression, LASSO, RIDGE and tree-based methods such as Random Forest.*
+- *Since we know that the data had multi collinearity between variables, we had to implement regularization methods and Principle Component Regression (PCR).*
+- *The data for Principle Component Regression was obtained from Principle component analysis where we reduced the dimension of the data from 43 dimensions to 6.*
+- *From this detailed analysis it is evident that Principle Component Analysis is the best model for predicting the Unemployment Rate.*
 ---
