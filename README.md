@@ -44,6 +44,7 @@ with the help of Common Table Expression (CTE).
 of Common Table Expression (CTE).
 - Finally queried the merged data from the Database for Feature Engineering,
 Exploratory Data Analysis (EDA), and Model Fitting.
+
 *Note: Created and Populated Database by Integrating Database and Python using SQLite3.*
 
 ## Packages used for EDA
